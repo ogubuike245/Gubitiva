@@ -1,2 +1,2 @@
-# mern-news-app
+# GubiNewsHub
 COMING SOON
