@@ -6,7 +6,7 @@ main .container {
 .main-content {
   width: 75%;
   height: 100vh;
-  background: blue;
+  /* background: blue; */
 }
 
 .side-content {

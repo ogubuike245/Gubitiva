@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ id, cover, catgeory, title, authorName, time }) => {
+const Card = ({ id, cover, category, title, authorName, time }) => {
   return (
     <>
       <div className="box">
@@ -9,7 +9,7 @@ const Card = ({ id, cover, catgeory, title, authorName, time }) => {
           <img src={cover} alt="post-cover" />
         </div>
         <div className="text">
-          <span className="category">{catgeory}</span>
+          <span className="category">{category}</span>
 
           {/* <Link to={`/SinglePage/${id}`}> */}
           <h1 className="titleBg">{title}</h1>
