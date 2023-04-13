@@ -5,10 +5,14 @@ main .container {
 
 .main-content {
   width: 75%;
+  height: 100vh;
+  background: blue;
 }
 
 .side-content {
   width: 23%;
+  height: 100vh;
+  background: blue;
 }
 
 @media screen and (max-width: 768px) {

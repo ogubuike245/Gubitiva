@@ -1,12 +1,13 @@
 import React from "react";
 import "./home.css";
+import Popular from "../popular/Popular";
 const Home = () => {
   return (
     <>
       <main>
         <div className="container">
           <section className="main-content">
-            <h1>MAIN</h1>
+            <Popular />
           </section>
 
           <section className="side-content">
