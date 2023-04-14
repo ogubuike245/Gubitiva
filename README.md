@@ -1,2 +1,2 @@
-# GubiNewsHub
+# Gubitiva
 COMING SOON
