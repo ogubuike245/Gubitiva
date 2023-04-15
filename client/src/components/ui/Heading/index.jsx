@@ -2,8 +2,8 @@ import "./heading.css";
 const Heading = ({ title }) => {
   return (
     <>
-      <div className="heading">
-        <h6>{title}</h6>
+      <div className="heading-container">
+        <button>{title}</button>
       </div>
     </>
   );

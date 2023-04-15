@@ -1,0 +1,20 @@
+.heading-container {
+  background: url("/images/title_pattern.png");
+  padding: 0.5rem;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+}
+
+.heading-container button {
+  padding: 0.5rem;
+  background: rgba(23, 44, 25, 0.8);
+  border: unset;
+  color: bisque;
+}
+.heading-container button:hover {
+  padding: 0.5rem;
+  background: bisque;
+  border: unset;
+  color: rgba(23, 44, 25, 0.8);
+}

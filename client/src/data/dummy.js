@@ -1,8 +1,9 @@
-export const hero = [
+export const slots = [
   {
     id: 1,
-    cover: "../images/hero/hero1.jpg",
-    category: "featured",
+    cover: "/images/hero/hero1.jpg",
+    category: "lifestyle",
+    slotNumber: "one",
     title: "Google To Boost Android Security In Few Days",
     authorName: "Salman",
     authorImg: "../images/author.jpg",
@@ -45,12 +46,13 @@ export const hero = [
   },
   {
     id: 2,
-    cover: "../images/hero/hero2.jpg",
+    cover: "/images/hero/hero2.jpg",
     category: "sport",
     title: "More than billion football fans attend Brazil world cup",
     authorName: "alex",
     authorImg: "../images/author.jpg",
     time: "12 Aug - 2022",
+    slotNumber: "two",
     desc: [
       {
         para1:
@@ -89,12 +91,13 @@ export const hero = [
   },
   {
     id: 3,
-    cover: "../images/hero/hero3.jpg",
+    cover: "/images/hero/hero3.jpg",
     category: "fashion",
     title: "No escaping new high tech speed cameras",
     authorName: "rina",
     authorImg: "../images/author.jpg",
     time: "22 Mar - 2022",
+    slotNumber: "three",
     desc: [
       {
         para1:
@@ -133,12 +136,13 @@ export const hero = [
   },
   {
     id: 4,
-    cover: "../images/hero/hero4.jpg",
+    cover: "/images/hero/hero4.jpg",
     category: "technology",
     title: "Emma Watson stands up for Turkish women",
     authorName: "sunil",
     authorImg: "../images/author.jpg",
     time: "08 Dec - 2022",
+    slotNumber: "four",
     desc: [
       {
         para1:
