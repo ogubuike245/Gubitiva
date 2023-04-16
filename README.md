@@ -1,2 +1,1 @@
 # Gubitiva
-COMING SOON
