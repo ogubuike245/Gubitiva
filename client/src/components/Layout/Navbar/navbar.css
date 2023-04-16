@@ -1,18 +1,18 @@
 .nav-header {
   position: fixed;
-  top: 1rem;
+  top: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin: 2rem;
+  margin: 1rem auto;
   border-radius: 1rem;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
   z-index: 100000000;
   height: 50px;
-  width: 90vw;
+  width: 95vw;
   background: rgb(252, 250, 250);
 }
 
@@ -22,15 +22,31 @@
   align-items: center;
 }
 
-.nav-header .nav-logo {
+.nav-header .nav-logo span {
+  font-size: 35px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
 }
 .nav-header .nav-list {
+  padding: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 .nav-header .nav-list ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.nav-header .nav-list ul li a {
+  color: rgb(2, 1, 1);
+  transition: all 0.5s ease;
+  padding: 0.8rem;
+  font-weight: 500;
+}
+.nav-header .nav-list ul li a:hover {
+  color: rgb(104, 130, 214);
 }
 
 .nav-header .nav-cta {

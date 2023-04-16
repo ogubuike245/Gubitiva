@@ -16,14 +16,23 @@
 .slots-container .slot {
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.6);
   border-radius: 1rem;
   padding: 0.5rem;
+  position: relative;
+}
+.slots-container .slot img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
+  border-radius: 0.6rem;
 }
 
 .slots-container .slot-one {
   grid-area: 1 / 1 / 3 / 3;
 }
+
 .slots-container .slot-two {
   grid-area: 1 / 3 / 2 / 5;
 }
@@ -34,18 +43,40 @@
   grid-area: 2 / 4 / 3 / 5;
 }
 
+.slots-container .slot div {
+  position: absolute;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 30px 1fr 20px;
+  grid-template-columns: 1fr;
+}
 .slots-container .slot button {
   padding: 0.5rem;
   border: unset;
   border-radius: 0.3rem;
-  color: rgb(255, 255, 255);
+  color: rgb(236, 32, 32);
   background: black;
+  text-transform: uppercase;
+  margin: 0;
+  width: 100px;
+  text-align: center;
+  height: 100%;
 }
 .slots-container .slot h3 {
-  padding: 0.5rem;
+  padding: 1rem;
   border: unset;
   border-radius: 0.3rem;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
+}
+.slots-container .slot p {
+  padding: 0.1rem;
+  border: unset;
+  border-radius: 0.3rem;
+  color: rgb(233, 229, 231);
+  font-size: 10px;
+  background: red;
+  width: 80px;
+  text-align: center;
 }

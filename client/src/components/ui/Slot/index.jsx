@@ -3,13 +3,16 @@ export function Slot({ category, slotNumber, cover, id, title, authorName }) {
     <div
       key={id}
       className={`slot-${slotNumber} slot`}
-      style={{
-        backgroundImage: `url(${cover})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${cover})`,
+      // }}
     >
-      <button>{category}</button>
-      <h3>{title}</h3>
-      <p>{authorName}</p>
+      <img src={cover} />
+      <div>
+        <button>{category}</button>
+        <h3>{title}</h3>
+        <p>{authorName}</p>
+      </div>
     </div>
   );
 }

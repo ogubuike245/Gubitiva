@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./hero.css";
 
 const Hero = ({
@@ -17,9 +19,10 @@ const Hero = ({
         <div className="hero-text">
           <h1>{title}</h1>
           <p>{text}</p>
-          <a href={url} className={heroBtnClass}>
-            {heroBtnText}
-          </a>
+
+          <button className={heroBtnClass}>
+            <Link to={url}>{heroBtnText}</Link>
+          </button>
         </div>
       </div>
     </>

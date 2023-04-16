@@ -1,6 +1,7 @@
 import Heading from "../../components/ui/Heading";
 import Hero from "../../components/ui/Hero";
 import Slots from "./Slots";
+import cover from "../../assets/images/hero/hero3.jpg";
 import "./home.css";
 
 const HomePage = () => {
@@ -8,12 +9,12 @@ const HomePage = () => {
     <>
       <section className="home-container">
         <Hero
-          title="Welcome to Gubitrivia"
-          cover="./images/hero/hero3.jpg"
-          text="HERO TEXT"
+          title="THE GUBI BLOG"
+          cover={cover}
+          text="Cutting-Edge Insights"
           cName="hero"
-          url="/"
-          heroBtnText="TEST"
+          url="/about"
+          heroBtnText="Writings From Gubi"
           heroBtn="show"
         />
 

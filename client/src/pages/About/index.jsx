@@ -1,16 +1,14 @@
 import Hero from "../../components/ui/Hero";
-
+import cover from "../../assets/images/hero/hero4.jpg";
 const About = () => {
   return (
     <>
       <Hero
-        title="HOME"
-        cover="./images/hero/hero4.jpg"
-        text="ABOUT HERO TEXT"
+        title="ABOUT PAGE"
+        cover={cover}
+        text="ABOUT PAGE"
         cName="hero"
-        url="/"
-        heroBtnText="TEST"
-        heroBtn="show"
+        heroBtnClass="hide"
       />
     </>
   );
