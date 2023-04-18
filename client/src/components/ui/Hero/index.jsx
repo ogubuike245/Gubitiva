@@ -11,7 +11,7 @@ const Hero = ({
 }) => {
   return (
     <>
-      <div className={cName}>
+      <div className={cName} style={{ backgroundImage: `url(${cover})` }}>
         <img src={cover} alt={cover} />
 
         <div className="hero-text">
