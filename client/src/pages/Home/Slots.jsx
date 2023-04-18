@@ -1,6 +1,5 @@
 import { Slot } from "../../components/ui/Slot";
 import { slots } from "../../data/dummy";
-import "./home.css";
 
 const Slots = () => {
   return (

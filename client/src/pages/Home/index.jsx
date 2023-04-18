@@ -2,7 +2,6 @@ import Heading from "../../components/ui/Heading";
 import Hero from "../../components/ui/Hero";
 import Slots from "./Slots";
 import cover from "../../assets/images/hero/hero3.jpg";
-import "./home.css";
 
 const HomePage = () => {
   return (

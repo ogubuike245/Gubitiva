@@ -1,4 +1,3 @@
-import "./heading.css";
 const Heading = ({ title }) => {
   return (
     <>

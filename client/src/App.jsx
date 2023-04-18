@@ -5,7 +5,7 @@ import Layout from "./components/Layout";
 import { HomePage, About } from "./pages";
 
 // CSS
-import "./assets/css/App.css";
+import "./assets/css";
 
 function App() {
   return (

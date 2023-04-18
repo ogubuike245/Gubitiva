@@ -1,11 +1,11 @@
-const image1 = "https://source.unsplash.com/random/900×700/?technology";
-const image2 = "https://source.unsplash.com/random/900×700/?travel";
-const image3 = "https://source.unsplash.com/random/900×700/?food";
-const image4 = "https://source.unsplash.com/random/900×700/?business";
-// import image1 from "../assets/images/hero/hero1.jpg";
-// import image2 from "../assets/images/hero/hero2.jpg";
-// import image3 from "../assets/images/hero/hero3.jpg";
-// import image4 from "../assets/images/hero/hero4.jpg";
+// const image1 = "https://source.unsplash.com/random/900×700/?technology";
+// const image2 = "https://source.unsplash.com/random/900×700/?travel";
+// const image3 = "https://source.unsplash.com/random/900×700/?food";
+// const image4 = "https://source.unsplash.com/random/900×700/?business";
+import image1 from "../assets/images/hero/hero1.jpg";
+import image2 from "../assets/images/hero/hero2.jpg";
+import image3 from "../assets/images/hero/hero3.jpg";
+import image4 from "../assets/images/hero/hero4.jpg";
 
 export const slots = [
   {
