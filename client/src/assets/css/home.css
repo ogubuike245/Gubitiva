@@ -52,7 +52,9 @@
   text-transform: uppercase;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  background: #f0f0f0;
+  color: #333;
 }
 .slots-container .slot h3 {
   flex: 2;
@@ -140,7 +142,7 @@
 .filtered-posts {
   padding: 3rem;
   background: hsl(175, 34%, 85%);
-  height: 350px;
+  height: 420px;
 }
 .filtered-posts .filter-container {
   display: flex;
