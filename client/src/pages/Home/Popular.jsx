@@ -5,6 +5,8 @@ const Popular = () => {
   const settings = {
     dots: true,
     infinite: true,
+    className: "center",
+    centerMode: true,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,

@@ -131,14 +131,41 @@
 .home-categories {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filtered-posts {
+  padding: 3rem;
+  background: hsl(175, 34%, 85%);
+  height: 350px;
+}
+.filtered-posts .filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .home-categories button {
-  padding: 1rem;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-categories button:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 /* 2xl */

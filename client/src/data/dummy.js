@@ -122,4 +122,40 @@ export const popular = [
     snippet:
       "Esports is one of the fastest-growing industries in the world, with millions of players and fans around the globe. Learn more about the rise of competitive gaming and what it means for the future of sports.",
   },
+  {
+    id: 7,
+    cover: "image6",
+    category: "sports",
+    title:
+      "The Rise of Esports: A Look at the Fast-Growing Competitive Gaming Industry",
+    author: "Mike Johnson",
+
+    time: "30 Mar - 2023",
+    snippet:
+      "Esports is one of the fastest-growing industries in the world, with millions of players and fans around the globe. Learn more about the rise of competitive gaming and what it means for the future of sports.",
+  },
+  {
+    id: 8,
+    cover: "image6",
+    category: "sports",
+    title:
+      "The Rise of Esports: A Look at the Fast-Growing Competitive Gaming Industry",
+    author: "Mike Johnson",
+
+    time: "30 Mar - 2023",
+    snippet:
+      "Esports is one of the fastest-growing industries in the world, with millions of players and fans around the globe. Learn more about the rise of competitive gaming and what it means for the future of sports.",
+  },
+  {
+    id: 9,
+    cover: "image6",
+    category: "sports",
+    title:
+      "The Rise of Esports: A Look at the Fast-Growing Competitive Gaming Industry",
+    author: "Mike Johnson",
+
+    time: "30 Mar - 2023",
+    snippet:
+      "Esports is one of the fastest-growing industries in the world, with millions of players and fans around the globe. Learn more about the rise of competitive gaming and what it means for the future of sports.",
+  },
 ];
