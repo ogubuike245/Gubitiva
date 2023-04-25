@@ -7,8 +7,8 @@ const About = () => {
         title="ABOUT PAGE"
         cover={cover}
         text="ABOUT PAGE"
-        cName="hero"
-        heroBtnClass="hide"
+        className="hero"
+        heroButtonClass="hide"
       />
     </>
   );

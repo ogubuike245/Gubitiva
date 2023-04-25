@@ -14,10 +14,6 @@
 }
 
 .slots-container .slot {
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 1rem;
-  /* padding: 0.1rem; */
   position: relative;
 }
 .slots-container .slot img {
@@ -51,8 +47,12 @@
   height: 100%;
 }
 .slots-container .slot button {
-  padding: 0.1rem;
+  border: unset;
+  padding: 0.2rem;
   text-transform: uppercase;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 0.7rem;
 }
 .slots-container .slot h3 {
   flex: 2;
@@ -66,11 +66,79 @@
   font-size: calc(10px + (10 - 2) * ((100vw - 300px) / (1600 - 300)));
 }
 .slots-container .slot p {
-  background: red;
+  background: hsl(0, 58%, 30%);
+  color: aliceblue;
   padding: 0.1rem 0.5rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+
+/* POPULAR  */
+
+.popular-container {
+  padding: 2rem;
+}
+
+.popular-container .post {
+  width: 300px;
+  height: 200px;
+}
+.popular-container .post div {
+  width: 95%;
+  height: 200px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/popular/stripe.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.popular-container .post div button {
+  padding: 0.3rem;
+  border: unset;
+  background: rgb(21, 43, 117);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: whitesmoke;
+}
+.popular-container .post div h3 {
+  font-size: calc(10px + (10 - 2) * ((100vw - 300px) / (1600 - 300)));
+
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.1rem;
+}
+.popular-container .post div p {
+  background: hsl(0, 58%, 30%);
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+/* CATEGORIES  */
+
+.home-categories {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.home-categories button {
+  padding: 1rem;
 }
 
 /* 2xl */

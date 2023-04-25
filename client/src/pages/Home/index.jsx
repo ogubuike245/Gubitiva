@@ -2,6 +2,8 @@ import Heading from "../../components/ui/Heading";
 import Hero from "../../components/ui/Hero";
 import Slots from "./Slots";
 import cover from "../../assets/images/hero/hero3.jpg";
+import Popular from "./Popular";
+import Categories from "./Categories";
 
 const HomePage = () => {
   return (
@@ -11,14 +13,18 @@ const HomePage = () => {
           title="THE GUBI BLOG"
           cover={cover}
           text="Cutting-Edge Insights"
-          cName="hero"
+          className="hero"
           url="/about"
-          heroBtnText="Writings From Gubi"
-          heroBtn="show"
+          heroButtonText="Writings From Gubi"
+          heroButton="show"
         />
 
         <Heading title="FEATURED" />
         <Slots />
+        <Heading title="POPULAR" />
+        <Popular />
+        <Heading title="CATEGORIES" />
+        <Categories />
       </section>
     </>
   );

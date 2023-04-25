@@ -3,23 +3,24 @@ import { Link } from "react-router-dom";
 const Hero = ({
   cover,
   title,
-  cName,
+  className,
   text,
   url,
-  heroBtnClass,
-  heroBtnText,
+  heroButtonClass,
+  heroButtonText,
 }) => {
   return (
     <>
-      <div className={cName} style={{ backgroundImage: `url(${cover})` }}>
+      {/* <div className={className} style={{ backgroundImage: `url(${cover})` }}> */}
+      <div className={className}>
         <img src={cover} alt={cover} />
 
         <div className="hero-text">
           <h1>{title}</h1>
           <p>{text}</p>
 
-          <button className={heroBtnClass}>
-            <Link to={url}>{heroBtnText}</Link>
+          <button className={heroButtonClass}>
+            <Link to={url}>{heroButtonText}</Link>
           </button>
         </div>
       </div>

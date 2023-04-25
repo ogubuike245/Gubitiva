@@ -1,4 +1,3 @@
-import { Slot } from "../../components/ui/Slot";
 import { slots } from "../../data/dummy";
 
 const Slots = () => {
@@ -6,7 +5,17 @@ const Slots = () => {
     <>
       <div className="slots-container">
         {slots.map((slot) => {
-          return <Slot key={slot.id} {...slot} />;
+          const { number, cover, id, author, category, title, snippet } = slot;
+          return (
+            <div key={id} className={`slot-${number} slot`}>
+              <img src={cover} />
+              <div>
+                <button>{category}</button>
+                <h3>{title}</h3>
+                <p>{author}</p>
+              </div>
+            </div>
+          );
         })}
       </div>
     </>
